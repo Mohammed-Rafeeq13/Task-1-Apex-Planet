@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1: Basics of Web Development</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My First Webpage</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Home Section</h2>
+            <p>This is a simple webpage created using HTML. It demonstrates basic HTML structure with headings, paragraphs, images, and links.</p>
+            
+            <img src="sample.webp" alt="Sample Image" class="sample-image">
+            
+            <p>Here are some useful links:</p>
+            <ul>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">Learn HTML</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">Learn CSS</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">Learn JavaScript</a></li>
+            </ul>
+        </section>
+
+        <section id="about">
+            <h2>About Section</h2>
+            <p>This section demonstrates the use of different HTML elements and CSS styling.</p>
+            
+            <div class="feature-box">
+                <h3>HTML Features</h3>
+                <p>This webpage includes headings, paragraphs, images, links, and proper semantic structure.</p>
+            </div>
+            
+            <div class="feature-box">
+                <h3>CSS Styling</h3>
+                <p>The webpage is styled with CSS including colors, fonts, spacing, and layout adjustments.</p>
+            </div>
+            
+            <div class="feature-box">
+                <h3>JavaScript Interactivity</h3>
+                <p>Click the button below to see JavaScript in action!</p>
+                <button id="interactive-btn" class="btn">Click Me!</button>
+                <p id="message" class="hidden">Hello! This message was shown using JavaScript!</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Section</h2>
+            <p>Get in touch with us through the following methods:</p>
+            
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h4>Email</h4>
+                    <p>rafeeq102003@example.com</p>
+                </div>
+                <div class="contact-item">
+                    <h4>Phone</h4>
+                    <p>+91 12345678910</p>
+                </div>
+                <div class="contact-item">
+                    <h4>Address</h4>
+                    <p>123 Web Development Street,India.<br>Code City, CC 12345</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Task 1 - Basics of Web Development. Created for learning purposes.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
